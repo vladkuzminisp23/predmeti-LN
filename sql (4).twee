@@ -1,0 +1,454 @@
+:: StoryTitle
+sql
+
+
+:: StoryData
+{
+  "ifid": "D7980034-8A7F-4682-B5CF-3E8B8BAD7B5D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "начало",
+  "zoom": 1
+}
+
+
+:: DBbrowser {"position":"450,600","size":"100,100"}
+<img src="https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png" alt="man" height=350 wedth=350>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+Установка и настройка DB Browser for SQLite
+Установка
+
+	1.	Загрузите программу:
+	•	Перейдите на официальный сайт и выберите версию для вашей операционной системы (Windows, macOS, Linux).
+	2.	Установите:
+	•	Для Windows: Скачайте установочный файл .exe и следуйте инструкциям.
+	•	Для macOS: Скачайте файл .dmg, откройте его и перетащите программу в папку “Программы”.
+	•	Для Linux: Воспользуйтесь менеджером пакетов вашего дистрибутива (например, sudo apt install sqlitebrowser для Ubuntu).
+Настройка:
+	•	После установки откройте приложение. Оно не требует сложной настройки, сразу доступно для работы с SQLite базами данных.
+	•	Чтобы начать работать, нажмите “Open Database” для открытия существующей базы или “New Database” для создания новой.
+[[обратно|установка и настройка]]]
+</div>
+
+
+
+
+:: Liberoffice Base? {"position":"875,275","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+[[определение]]
+[[как в нем Работать?]]
+[[запросик]]
+[[как создать форму]]
+[[обратно|start]]]
+</div>
+
+
+:: SQLDBBrowser? {"position":"700,425","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+[[что это?]]
+[[как в нем работать?]]
+[[запрос]]
+[[обратно|start]]]
+</div>
+
+
+
+:: liberoffice Base {"position":"325,500","size":"100,100"}
+<img src="https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png" alt="man" height=350 wedth=350>
+<div class="transparent-box">
+(text-colour:black)[ZELL
+---
+1.	Загрузите LibreOffice:
+	•	Перейдите на официальный сайт LibreOffice и выберите подходящую версию для вашей операционной системы.
+	2.	Установите:
+	•	Для Windows: Скачайте установочный файл .msi и следуйте инструкциям.
+	•	Для macOS: Скачайте .dmg файл и установите его.
+	•	Для Linux: Используйте менеджер пакетов (например, sudo apt install libreoffice-base для Ubuntu).
+Настройка:
+	•	После установки откройте LibreOffice Base через меню приложений.
+	•	При первом запуске выберите “Создать новую базу данных” или “Открыть существующую базу данных”.
+	•	Для подключения к внешним базам данных (например, MySQL или PostgreSQL), перейдите в Файл → Сведения о базе данных и настройте соединение.
+
+[[обратно|установка и настройка]]]
+</div>
+
+
+:: start {"position":"650,250","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black) [Рад приветствовать $fio в интерактивном уроке по SQLlite.
+
+какое направление вас интересует
+---
+[[SQLDBBrowser?]]
+[[Liberoffice Base?]]
+[[установка и настройка]]
+[[основы синтексиса]]
+[[Конец!]]]
+</div>
+
+
+:: Да! {"position":"1025,100","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[Спасибо я старался! :)
+[[дальше]]]
+</div>
+
+
+
+:: Конец! {"position":"825,50","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[ZELL тебе понравилось?
+---
+[[Да!]]
+[[Нет!]]]
+</div>
+
+
+:: Нет! {"position":"1025,225","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[Извини что не оправдал твои ожидания! :(
+[[дальше]]]
+
+</div>
+
+
+:: вывод {"position":"625,600","size":"100,100"}
+<img src="https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png" alt="man" height=350 wedth=350>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+Вывод:
+	•	DB Browser for SQLite: Прост в установке и сразу готов к использованию для работы с SQLite.
+	•	LibreOffice Base: Устанавливается как часть LibreOffice, позволяет создавать и управлять базами данных с графическим интерфейсом.
+[[обратно|установка и настройка]]]
+</div>
+
+
+
+:: дальше {"position":"1150,225","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[Поздравляю ты немного узнал о двух приложениях в которых можно создавать базы данных
+[[конец]]]
+</div>
+
+
+:: запрос {"position":"925,725","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+</style>
+<img
+src=https://yougile.com/user-data/9b80deec-00e2-4211-b907-09dc875fefb2/2024-12-10_12-38.png-256-preview@279x190.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[ZELL
+---
+вот пример запроса который я сделал. В этом запросе я отобразил по носеру запрвки и номеру ведомости автомобил и количство топливо заправленого в этот автомобиль
+[[общее сравнение]]
+[[обратно|SQLDBBrowser?]]]
+</div>
+
+
+:: запросик {"position":"1125,650","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+</style>
+<img
+src=https://yougile.com/user-data/175d65a1-da0b-4c32-9ceb-0eaaf09d8358/2024-12-10_12-38_1.png-256-preview@271x182.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[ZELL
+---
+вот пример запроса который я сделал. В этом запросе я отобразил по носеру запрвки и номеру ведомости автомобил и количство топливо заправленого в этот автомобиль
+[[общее сравнение]]
+[[обратно|Liberoffice Base?]]]
+</div>
+
+
+:: как в нем Работать? {"position":"1150,450","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+1. Создание или открытие базы данных
+	•	Создать: Выберите Создать новую базу данных и следуйте инструкциям.
+	•	Открыть: Выберите Открыть существующую базу данных.
+2. Создание таблиц
+	•	Перейдите на вкладку Таблицы → Создать таблицу в режиме конструктора.
+	•	Укажите столбцы и их типы, затем сохраните таблицу.
+3. Заполнение таблиц
+	•	Выберите таблицу на вкладке Таблицы и нажмите Открыть для ввода данных.
+	•	Введите данные и сохраните изменения.
+4. Создание запросов
+	•	Перейдите на вкладку Запросы → Создать запрос в режиме конструктора.
+	•	Выберите таблицы и поля, задайте условия и выполните запрос.
+5. Создание форм
+	•	Перейдите на вкладку Формы → Создать форму в режиме конструктора.
+	•	Выберите поля для ввода данных.
+6. Создание отчётов
+	•	Перейдите на вкладку Отчёты → Создать отчёт в режиме конструктора.
+	•	Настройте поля для отчёта.
+7. Сохранение и экспорт
+	•	Сохраните базу через Файл → Сохранить.
+	•	Экспортируйте данные в форматах CSV, PDF и других.
+LibreOffice Base — удобный инструмент для создания и управления базами данных с графическим интерфейсом.]
+[[обрытно|Liberoffice Base?]]
+</div>
+
+
+:: как в нем работать? {"position":"850,500","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+1. Создание или открытие базы данных
+	•	Новая база данных: File → New Database, выберите место и имя файла.
+	•	Открыть базу данных: File → Open Database, выберите файл.
+2. Работа с таблицами
+	•	Создание таблицы: Перейдите на Database Structure → Create Table, добавьте столбцы.
+	•	Редактирование/удаление: Щёлкните правой кнопкой по таблице в Database Structure.
+3. Просмотр и редактирование данных
+	•	Перейдите на Browse Data, выберите таблицу, редактируйте данные или добавьте новые записи.
+4. Выполнение SQL-запросов
+	•	Перейдите на Execute SQL, введите запрос и нажмите Execute для выполнения.
+5. Импорт и экспорт данных
+	•	Импорт: File → Import (например, CSV).
+	•	Экспорт: File → Export (например, CSV).
+6. Сохранение изменений
+	•	Не забудьте сохранить изменения через File → Save Database.
+Этот инструмент удобен для работы с SQLite без использования командной строки.]
+[[обратно|SQLDBBrowser?]]
+</div>
+
+
+:: как создать форму {"position":"1325,625","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[Чтобы создать форму в LibreOffice Base, выполните следующие шаги:
+Откройте LibreOffice Base: Запустите программу и откройте вашу базу данных.
+Перейдите в режим проектирования: В левом боковом меню выберите "Формы".
+Создайте новую форму:
+Щелкните правой кнопкой мыши на "Формы" и выберите "Создать форму в режиме конструктора".
+Выберите источник данных (таблицу или запрос), для которого вы хотите создать форму, и нажмите "Далее".
+Выберите поля: В следующем окне выберите поля, которые хотите добавить в форму, и нажмите "Далее".
+Настройка формы: Выберите стиль и макет формы, затем нажмите "Готово".
+Редактирование формы: Вы можете дополнительно редактировать форму в режиме конструктора, добавляя элементы управления (кнопки, текстовые поля и т.д.) и настраивая их свойства.
+Сохраните форму: После завершения редактирования сохраните форму, нажав на значок дискеты или выбрав "Файл" > "Сохранить".
+Теперь ваша форма готова к использованию! Вы можете открыть ее для ввода данных или просмотра информации.
+[[обратно|Liberoffice Base?]]]
+</div>
+
+
+:: конец {"position":"1325,300","size":"100,100"}
+<script>
+window.close();
+</script>
+
+
+:: начало {"position":"650,25","size":"100,100"}
+(set: $fio to(prompt: "Как вас зовут?", ""))
+
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png class="centered" height=700 wedth=700 >
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+[[отлично идем дальше|start]]]
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+
+:: общее сравнение {"position":"1100,825","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[ZELL
+---
+Типы баз данных:
+SQLDBrowser: Работает только с SQLite.
+LibreOffice Base: Поддерживает SQLite, MySQL, PostgreSQL и другие.
+Интерфейс пользователя:
+SQLDBrowser: Простой и минималистичный, ориентирован на выполнение SQL-запросов.
+LibreOffice Base: Более сложный, с возможностью создания форм и отчетов.
+Создание и управление таблицами:
+SQLDBrowser: Основные функции через SQL-запросы, ограниченные возможности.
+LibreOffice Base: Удобные инструменты для создания и управления таблицами визуально.
+Поддержка SQL:
+SQLDBrowser: Полная поддержка SQL-запросов.
+LibreOffice Base: Поддержка SQL и графический интерфейс для создания запросов.
+Отчеты и формы:
+SQLDBrowser: Нет инструментов для создания отчетов.
+LibreOffice Base: Мощные инструменты для отчетности и форм.
+Пользовательская поддержка:
+SQLDBrowser: Ограниченная документация и поддержка.
+LibreOffice Base: Обширная документация и активное сообщество.
+Портативность:
+SQLDBrowser: Легко переносим, работает с файлами SQLite.
+LibreOffice Base: Требует настройки для работы с различными источниками данных.
+[[обратно|start]]]
+</div>
+
+
+:: определение {"position":"975,500","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+LibreOffice Base — это компонент набора LibreOffice для работы с базами данных. Он позволяет создавать, управлять и работать с базами данных, а также создавать формы для ввода данных, отчёты и запросы.
+Основные возможности:
+	•	Создание и управление базами данных: Поддерживает различные типы баз данных, включая встроенные файлы HSQLDB и подключения к внешним базам (например, MySQL, PostgreSQL).
+	•	Запросы: Создание SQL-запросов для выборки, обновления или удаления данных.
+	•	Формы: Создание форм для удобного ввода данных.
+	•	Отчёты: Генерация отчётов на основе данных.
+	•	Интерфейс: Графический интерфейс для работы с данными, аналогичный Microsoft Access.
+LibreOffice Base подходит для пользователей, которым нужен бесплатный и функциональный инструмент для работы с базами данных, но без сложных настроек.]
+[[обрытно|Liberoffice Base?]]
+</div>
+
+
+:: основы синтексиса {"position":"475,175","size":"100,100"}
+<img src="https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png" alt="man" height=350 wedth=350> 
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+Основы синтаксиса SQL
+•	SELECT — для выбора данных.
+	•	INSERT INTO — для добавления данных.
+	•	UPDATE — для обновления данных.
+	•	DELETE — для удаления данных.
+	•	WHERE — для фильтрации данных.
+	•	CREATE TABLE — для создания таблиц.
+	•	JOIN — для объединения данных из нескольких таблиц.
+	•	LIMIT — для ограничения количества результатов.
+С этим набором команд можно уже начать работать с базами данных в SQL!
+[[обратно|start]]]
+</div>
+
+
+
+
+:: установка и настройка {"position":"500,375","size":"100,100"}
+<img src="https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png" alt="man" height=350 wedth=350>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+[[DBbrowser]]
+[[liberoffice Base]]
+[[вывод]]]
+(text-colour:black)[[[обратно|start]]]
+
+</div>
+
+
+:: что это? {"position":"775,625","size":"100,100"}
+</style>
+<img
+src=https://yougile.com/user-data/5e73bff7-007a-4d0e-9b8a-3e7c712d6ea4/IMG_2814.png-256-preview@256x256.png height=350 wedth=350 >
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+ZELL
+---
+SQL DB Browser (или DB Browser for SQLite) — бесплатное приложение для работы с базами данных SQLite. Оно позволяет:
+	•	Просматривать и редактировать данные в таблицах.
+	•	Создавать и изменять таблицы.
+	•	Выполнять SQL-запросы.
+	•	Импортировать и экспортировать данные (например, в CSV или SQL).
+Идеально подходит для пользователей и разработчиков, работающих с SQLite, благодаря простому графическому интерфейсу.]
+[[обратно|SQLDBBrowser?]]
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+tw-link
+{
+  color:#ffffff;
+}
+
+tw-story
+{
+  font-family:Arial;
+  font-size: 22px;
+}
+
+tw-story{
+  background-image:url("https://yandex-images.clstorage.net/kUej56132/94801eZd/t6IJ3C2MVc8WLSeI8d25boOXWUMAIJR-iSlbeLuO740dF5YMbvCmPOyNTSMeZ2ZwijmUa_HnKxhxTrEsQppGfAKG7OhICCArZi12zEF5eM5Clg2C1BHAXxlpLuh7KHxfOjC17tjCYd4b6f0Wi0IS8X4Ygg1w4q0Y4SphXnEKIHhH4hnvX12FqqTdxE8h30j-gzZtYcFj4B9-u5htLjgPfChTlLwLABDPm_hdFrvyIkTeGyC8p-J8qwH5of8QyuEpJCJ7HB0dx7rU3ZbsMrzIzOJWz5OxMbHtTZjKHQ2LHj-awGWMiRKiP5ia_paL0KJHzQlTXAeSnrpi6bPPoXgRiFbDmU1_zbXrJm5lrWI_2UwDJ8zgwKGyLK4oaDzOih-dOjGFv2hh0X7aqNxn64KBhx-bU9y0UszIgnnD7yH54lhGg1jtjJzkGPXtdp1QHdmfgoe9UREC8F8_yRuuXSiPbotwZJyb8CMNq3tcJSggYCSMG8LeFLBOCqEpMR8iKsG5NoPIzV4_hGqGLQadkezYzEP3rUKj0HGdXsm73O6Y3W1bY7VsO1JDPsiL7VarIiO3HCkzDcfRD0hQ2aKeATqx67VCebw8vcRrxE0UrIIM6uxTRV1RM_FR7k2JaV98S0196IIlf2sCo_-YSS_EOnKB11454r6lQy9II9mQfgJowPhVcFhOT-40CtQM95-ADJns8bVe0QFjoQw-a0of31nfj9sihJ2rcHONCSttRPgjAuTNqoPcRgI8WqEbck1hm5IaRCG4bz2NxFmnr1U9sQ6q35D3TKHzQeJtHUq7Lgx5XcxZURRNKkCTXxg7LXSIktHGjqpBPwYwTynh-bH9cOuyG6TRC699_YRrdB2mHSEeur4zhI6jkTNwXD45K3-8-r68KzI3DqjTcu77KF1E2yLjFY0I4t7kApzYsWtBHsBb86jlEjjs7P5n6SXuNC0TD0lcgZa-wMNzgDwPqfvdDIud8");
+  background-size:cover;
+}
+
+.transparent-box {
+border: 5px solid rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
