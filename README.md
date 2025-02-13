@@ -6,3 +6,7 @@
 | Папка 👻|
 | -----------|
 | https://drive.google.com/drive/folders/1--DuY2HNx2AgqE7pWLm9TThrvt1r27s9?dmr=1&ec=wgc-drive-globalnav-goto |
+
+| Фотки 👻|
+| -----------|
+| https://drive.google.com/drive/folders/1cSublylqq58SBt8qK4hR2qf_6Bw7mI5C |
